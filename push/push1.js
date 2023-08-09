@@ -35,4 +35,10 @@ const removedFromOurArray = ourArray.shift();
 
 //removedFromOurArray would have a value of the string Stimpson, and ourArray would have ["J", ["cat"]].
 
+// to add elements in front of the array use unshift()
 
+// this function print out "Haruna"
+
+function myName() {
+    console.log("Haruna");
+};
