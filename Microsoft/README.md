@@ -1,0 +1,1 @@
+this directory is for a javascript that I'm learning from Microsoft.
