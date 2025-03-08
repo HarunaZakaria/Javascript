@@ -6,4 +6,15 @@ let personOne = {
 }
 
 let greet = "Good Morning " + personOne.name;
-alert(greet);
+//alert(greet);
+
+// Constructor function
+
+function BellBoy (name, age, languages) {
+    this.name;
+    this.age;
+    this.languages; 
+}
+
+// initializing object
+let bellboy1 = new BellBoy("zak", 24, ["Dagbani", "English"]);
