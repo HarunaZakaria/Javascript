@@ -11,10 +11,15 @@ let greet = "Good Morning " + personOne.name;
 // Constructor function
 
 function BellBoy (name, age, languages) {
-    this.name;
-    this.age;
-    this.languages; 
+    this.name = name;
+    this.age = age;
+    this.languages = languages; 
+    this.clean = function (){
+        alert("Im cleaning now");
+    }
 }
 
 // initializing object
 let bellboy1 = new BellBoy("zak", 24, ["Dagbani", "English"]);
+//alert("Good Morning " + bellboy1.name);
+bellboy1.clean();
