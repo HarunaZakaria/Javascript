@@ -13,7 +13,8 @@ let greet = "Good Morning " + personOne.name;
 function BellBoy (name, age, languages) {
     this.name = name;
     this.age = age;
-    this.languages = languages; 
+    this.languages = languages;
+    //this is a method 
     this.clean = function (){
         alert("Im cleaning now");
     }
@@ -22,4 +23,4 @@ function BellBoy (name, age, languages) {
 // initializing object
 let bellboy1 = new BellBoy("zak", 24, ["Dagbani", "English"]);
 //alert("Good Morning " + bellboy1.name);
-bellboy1.clean();
+//bellboy1.clean();
