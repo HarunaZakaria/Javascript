@@ -24,3 +24,10 @@ function BellBoy (name, age, languages) {
 let bellboy1 = new BellBoy("zak", 24, ["Dagbani", "English"]);
 //alert("Good Morning " + bellboy1.name);
 //bellboy1.clean();
+
+
+
+//listen to  a key press on the keyboard
+document.addEventListener("keypress", function () {
+    alert("a key is press");
+})
