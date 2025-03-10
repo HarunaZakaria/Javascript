@@ -28,6 +28,6 @@ let bellboy1 = new BellBoy("zak", 24, ["Dagbani", "English"]);
 
 
 //listen to  a key press on the keyboard
-document.addEventListener("keypress", function () {
-    alert("a key is press");
+document.addEventListener("keypress", function (event) {
+    console.log(event);
 })
