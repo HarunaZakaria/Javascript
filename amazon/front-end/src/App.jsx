@@ -4,9 +4,9 @@ function App() {
   return (
     <>
       <header>
-        <a href="/">Amazon</a>
+        <a href="/">Harunzy Collection</a>
       </header>
-      <main>list products</main>
+      <main>List products</main>
     </>
   );
 }
