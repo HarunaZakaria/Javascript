@@ -1,10 +1,14 @@
 body {
   margin: 0;
 }
+/* Header Section Start */
 header {
   background-color: #404040;
   padding: 1rem;
 }
 header a {
   color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
+/* Header Section End */
