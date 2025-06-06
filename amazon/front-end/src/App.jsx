@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import HomeScreen from './Screens/HomeScreen';
 import ProductScreen from './Screens/ProductScreen';
 
@@ -8,7 +8,7 @@ function App() {
     <BrowserRouter>
       <div>
         <header>
-          <a href="/">Harunzy Collection</a>
+          <Link to="/">Harunzy Collection</Link>
         </header>
         <main>
           <Routes>
