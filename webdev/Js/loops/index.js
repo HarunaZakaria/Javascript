@@ -2,7 +2,11 @@
 
 function studentsNames(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
-    console.log(arr[i]);
+    if (arr[i] === 'Alimatu ') {
+      console.log(arr[i] + "I'm the class captain");
+    } else {
+      console.log(arr[i]);
+    }
   }
 }
 
