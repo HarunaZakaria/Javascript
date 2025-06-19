@@ -1,0 +1,20 @@
+// function
+
+function studentsNames(arr) {
+  for (let i = 0; i < arr.length - 1; i++) {
+    console.log(arr[i]);
+  }
+}
+
+let names = [
+  'Alhassa',
+  'Husein',
+  'Mushraf',
+  'Nana',
+  'Alimatu',
+  'Zeinab',
+  'Muda',
+  'Abass',
+];
+
+studentsNames(names);
