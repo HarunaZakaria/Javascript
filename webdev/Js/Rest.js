@@ -5,5 +5,12 @@ function unknownArgs(...args) {
   }
 }
 
-unknownArgs(1, 2, 3, 4, 5, 6);
-unknownArgs('Haruna', 'Hamdan', 'Hamza', 'Hashim', 'Hamis');
+//unknownArgs(1, 2, 3, 4, 5, 6);
+//unknownArgs('Haruna', 'Hamdan', 'Hamza', 'Hashim', 'Hamis');
+let set = new Set();
+set.add(1);
+set.add(2);
+set.add(3);
+set.add(2);
+set.add(1);
+//console.log(set);

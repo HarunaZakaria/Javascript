@@ -54,4 +54,11 @@ function styleAndCelebrate(color, background, fontSize, txt, reason) {
 }
 
 // Call styleAndCelebrate with appropriate arguments
-styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
+//styleAndCelebrate('ef7c8e', 'fae8e0', '30px', 'You made it!', 'champions');
+var globalVar = 77;
+
+function scopeTest() {
+  var localVar = 88;
+}
+
+console.log(localVar);
