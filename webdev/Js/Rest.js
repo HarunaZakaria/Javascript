@@ -1,6 +1,6 @@
 function unknownArgs(...args) {
   // Your code here
-  for (let i = 0; i < args.length - 1; i++) {
+  for (let i = 0; i < args.length; i++) {
     console.log(args[i]);
   }
 }
