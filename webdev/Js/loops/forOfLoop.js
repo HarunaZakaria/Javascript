@@ -33,4 +33,13 @@ function birdCan() {
   }
 }
 
-birdCan();
+//birdCan();
+
+//birdCan();
+// Task 3
+function animalCan() {
+  for (key in bird) {
+    console.log(key, ':', bird[key]);
+  }
+}
+animalCan();
