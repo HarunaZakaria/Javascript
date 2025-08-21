@@ -22,6 +22,25 @@ const fruit = new Fruit({
 //add only one fruits
 //fruit.save();
 
+const orange = new Fruit({
+  name: 'Orange',
+  rating: 7,
+  review: 'Nice orange',
+});
+const mongo = new Fruit({
+  name: 'Mongo',
+  rating: 10,
+  review: 'sweet mongo',
+});
+const apple = new Fruit({
+  name: 'Apple',
+  rating: 6,
+  review: 'awesome fruit',
+});
+
+//add many fruits
+Fruit.insertMany([orange, mongo, apple]);
+
 const personSchema = new mongoose.Schema({
   name: String,
   age: Number,
