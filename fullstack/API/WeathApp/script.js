@@ -15,13 +15,25 @@ app.get('/', function (req, res) {
       const weatherData = JSON.parse(data);
       const temp = weatherData.main.temp;
       const pressure = weatherData.main.pressure;
+      const city = weatherData.name;
       const discrip = weatherData.weather[0].description;
-      console.log(temp);
-      console.log(pressure);
-      console.log(discrip);
+      const icon = weatherData.weather[0].icon;
+      const imgURl = 'https://openweathermap.org/img/w/'+icon+'.png';
+      const tempDiscrip = ``;
+      res.write(
+        '<h1>The current weather is ' +
+          temp +
+          'in ' +
+          city +
+          'and the description is: ' +
+          discrip +
+          '</h1>'
+      );
+      res.write('<img src=' + imgURl + '>');
+
+      res.send();
     });
   });
-  res.send('the app is up and running.');
 });
 
 app.listen(3000, function () {
